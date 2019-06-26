@@ -12,6 +12,8 @@ namespace GPMS_DATA.Conventions
         public DateTimeConvention()
         {
             Properties<DateTime>().Configure(t => t.HasColumnType("datetime2"));
+            
         }
     }
+    'test';
 }
